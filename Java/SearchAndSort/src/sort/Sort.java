@@ -13,7 +13,7 @@ public class Sort {
 				return;
 			}
 		}
-		System.out.println("Kill yourself");
+		System.out.println("Nope lol");
 	}
 	
 	//Broken. Need to fix.
@@ -24,7 +24,7 @@ public class Sort {
 		int mid = high/2;
 		while (low <= high) {
 			if (k == L[mid]){
-				System.out.println("We did it, Reddit!");
+				System.out.println("We did it Reddit!");
 				return;
 			}
 			else if (k > L[mid]){
